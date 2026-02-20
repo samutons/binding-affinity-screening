@@ -43,23 +43,30 @@ pip install -r requirements.txt
 
 Open the notebooks folder and execute in this order:
 
-1. `01_affinity_synth_generator.ipynb`
-   Generate synthetic binding curves
+# Screening pipeline
 
-2. `02_affinity_4pl_fit_kd_ci.ipynb`
-   Fit 4PL model and calculate Kd + CI
+1. 01_screening_synth_generator.ipynb
+Generate staged screening experiments
 
-3. `03_affinity_plot_all_compounds_panels.ipynb`
-   Plot binding affinity curves
+2. 02_screening_piechart.ipynb
+Visualize category distribution
 
-4. `04_screening_synth_generator.ipynb`
-   Generate staged screening experiments
+3. 03_screening_total_scatter.ipynb
+Plot screening scatter overview
 
-5. `05_screening_piechart.ipynb`
-   Visualize category distribution
+# Affinity pipeline
 
-6. `06_screening_total_scatter.ipynb`
-   Plot screening scatter overview
+4. 04_affinity_synth_generator.ipynb
+Generate synthetic affinity curves
+
+5. 05_affinity_4pl_fit_kd_ci.ipynb
+Fit 4PL model and calculate EC50 + CI
+
+6. 06_affinity_plot_individual_compounds.ipynb
+Plot affinity curves per compound
+
+7. 07_affinity_plot_all_compounds_panels.ipynb
+Plot combined affinity panels
 
 Generated figures appear in the `outputs/` directory.
 
