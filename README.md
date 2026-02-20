@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 Open the notebooks folder and execute in this order:
 
-# Screening pipeline
+### Screening pipeline
 
 1. 01_screening_synth_generator.ipynb
 Generate staged screening experiments
@@ -54,7 +54,7 @@ Visualize category distribution
 3. 03_screening_total_scatter.ipynb
 Plot screening scatter overview
 
-# Affinity pipeline
+### Affinity pipeline
 
 4. 04_affinity_synth_generator.ipynb
 Generate synthetic affinity curves
